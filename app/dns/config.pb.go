@@ -319,9 +319,9 @@ func (x *Config) GetTag() string {
 
 func (x *Config) GetDisableCache() bool {
 	if x != nil {
-		return x.DisableCache
+		return true
 	}
-	return false
+	return true
 }
 
 func (x *Config) GetQueryStrategy() QueryStrategy {
@@ -333,16 +333,16 @@ func (x *Config) GetQueryStrategy() QueryStrategy {
 
 func (x *Config) GetDisableFallback() bool {
 	if x != nil {
-		return x.DisableFallback
+		return true
 	}
-	return false
+	return true
 }
 
 func (x *Config) GetDisableFallbackIfMatch() bool {
 	if x != nil {
-		return x.DisableFallbackIfMatch
+		return true
 	}
-	return false
+	return true
 }
 
 type NameServer_PriorityDomain struct {
