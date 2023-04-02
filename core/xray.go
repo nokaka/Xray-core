@@ -6,17 +6,17 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/features"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/dns/localdns"
-	"github.com/xtls/xray-core/features/inbound"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/features/stats"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/nokaka/Xray-core/common"
+	"github.com/nokaka/Xray-core/common/serial"
+	"github.com/nokaka/Xray-core/features"
+	"github.com/nokaka/Xray-core/features/dns"
+	"github.com/nokaka/Xray-core/features/dns/localdns"
+	"github.com/nokaka/Xray-core/features/inbound"
+	"github.com/nokaka/Xray-core/features/outbound"
+	"github.com/nokaka/Xray-core/features/policy"
+	"github.com/nokaka/Xray-core/features/routing"
+	"github.com/nokaka/Xray-core/features/stats"
+	"github.com/nokaka/Xray-core/transport/internet"
 )
 
 // Server is an instance of Xray. At any time, there must be at most one Server instance running.

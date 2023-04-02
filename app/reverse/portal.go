@@ -6,15 +6,15 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/mux"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/pipe"
+	"github.com/nokaka/Xray-core/common"
+	"github.com/nokaka/Xray-core/common/buf"
+	"github.com/nokaka/Xray-core/common/mux"
+	"github.com/nokaka/Xray-core/common/net"
+	"github.com/nokaka/Xray-core/common/session"
+	"github.com/nokaka/Xray-core/common/task"
+	"github.com/nokaka/Xray-core/features/outbound"
+	"github.com/nokaka/Xray-core/transport"
+	"github.com/nokaka/Xray-core/transport/pipe"
 )
 
 type Portal struct {

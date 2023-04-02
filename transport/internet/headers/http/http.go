@@ -1,6 +1,6 @@
 package http
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/nokaka/Xray-core/common/errors/errorgen
 
 import (
 	"bufio"
@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
+	"github.com/nokaka/Xray-core/common"
+	"github.com/nokaka/Xray-core/common/buf"
 )
 
 const (

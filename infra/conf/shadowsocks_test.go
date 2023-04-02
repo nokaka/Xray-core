@@ -3,11 +3,11 @@ package conf_test
 import (
 	"testing"
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	. "github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/proxy/shadowsocks"
+	"github.com/nokaka/Xray-core/common/net"
+	"github.com/nokaka/Xray-core/common/protocol"
+	"github.com/nokaka/Xray-core/common/serial"
+	. "github.com/nokaka/Xray-core/infra/conf"
+	"github.com/nokaka/Xray-core/proxy/shadowsocks"
 )
 
 func TestShadowsocksServerConfigParsing(t *testing.T) {

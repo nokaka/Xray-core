@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/xtls/xray-core/app/stats"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/features/stats"
+	. "github.com/nokaka/Xray-core/app/stats"
+	"github.com/nokaka/Xray-core/common"
+	"github.com/nokaka/Xray-core/features/stats"
 )
 
 func TestStatsChannel(t *testing.T) {

@@ -4,7 +4,7 @@
 
 ## License
 
-[Mozilla Public License Version 2.0](https://github.com/XTLS/Xray-core/blob/main/LICENSE)
+[Mozilla Public License Version 2.0](https://github.com/nokaka/Xray-core/blob/main/LICENSE)
 
 ## Installation
 
@@ -27,7 +27,7 @@
   - [(Tap) Repository 1](https://github.com/xiruizhao/homebrew-xray)
 
 ## Contributing
-[Code Of Conduct](https://github.com/XTLS/Xray-core/blob/main/CODE_OF_CONDUCT.md)
+[Code Of Conduct](https://github.com/nokaka/Xray-core/blob/main/CODE_OF_CONDUCT.md)
 
 ## Usage
 

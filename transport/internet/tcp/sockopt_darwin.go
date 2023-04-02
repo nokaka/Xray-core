@@ -4,9 +4,9 @@
 package tcp
 
 import (
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/nokaka/Xray-core/common/net"
+	"github.com/nokaka/Xray-core/transport/internet"
+	"github.com/nokaka/Xray-core/transport/internet/stat"
 )
 
 // GetOriginalDestination from tcp conn

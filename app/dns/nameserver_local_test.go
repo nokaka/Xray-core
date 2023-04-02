@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/xtls/xray-core/app/dns"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/features/dns"
+	. "github.com/nokaka/Xray-core/app/dns"
+	"github.com/nokaka/Xray-core/common"
+	"github.com/nokaka/Xray-core/common/net"
+	"github.com/nokaka/Xray-core/features/dns"
 )
 
 func TestLocalNameServer(t *testing.T) {

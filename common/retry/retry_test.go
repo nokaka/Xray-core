@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	. "github.com/xtls/xray-core/common/retry"
+	"github.com/nokaka/Xray-core/common"
+	"github.com/nokaka/Xray-core/common/errors"
+	. "github.com/nokaka/Xray-core/common/retry"
 )
 
 var errorTestOnly = errors.New("this is a fake error")

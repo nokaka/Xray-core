@@ -1,6 +1,6 @@
 package inbound
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/nokaka/Xray-core/common/errors/errorgen
 
 import (
 	"bytes"
@@ -15,27 +15,27 @@ import (
 	"unsafe"
 
 	"github.com/pires/go-proxyproto"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/retry"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/dns"
-	feature_inbound "github.com/xtls/xray-core/features/inbound"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/features/stats"
-	"github.com/xtls/xray-core/proxy/vless"
-	"github.com/xtls/xray-core/proxy/vless/encoding"
-	"github.com/xtls/xray-core/transport/internet/reality"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/nokaka/Xray-core/common"
+	"github.com/nokaka/Xray-core/common/buf"
+	"github.com/nokaka/Xray-core/common/errors"
+	"github.com/nokaka/Xray-core/common/log"
+	"github.com/nokaka/Xray-core/common/net"
+	"github.com/nokaka/Xray-core/common/protocol"
+	"github.com/nokaka/Xray-core/common/retry"
+	"github.com/nokaka/Xray-core/common/session"
+	"github.com/nokaka/Xray-core/common/signal"
+	"github.com/nokaka/Xray-core/common/task"
+	"github.com/nokaka/Xray-core/core"
+	"github.com/nokaka/Xray-core/features/dns"
+	feature_inbound "github.com/nokaka/Xray-core/features/inbound"
+	"github.com/nokaka/Xray-core/features/policy"
+	"github.com/nokaka/Xray-core/features/routing"
+	"github.com/nokaka/Xray-core/features/stats"
+	"github.com/nokaka/Xray-core/proxy/vless"
+	"github.com/nokaka/Xray-core/proxy/vless/encoding"
+	"github.com/nokaka/Xray-core/transport/internet/reality"
+	"github.com/nokaka/Xray-core/transport/internet/stat"
+	"github.com/nokaka/Xray-core/transport/internet/tls"
 )
 
 func init() {

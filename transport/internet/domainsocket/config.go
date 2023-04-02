@@ -1,9 +1,9 @@
 package domainsocket
 
 import (
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/nokaka/Xray-core/common"
+	"github.com/nokaka/Xray-core/common/net"
+	"github.com/nokaka/Xray-core/transport/internet"
 )
 
 const (
