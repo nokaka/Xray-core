@@ -333,16 +333,16 @@ func (x *Config) GetQueryStrategy() QueryStrategy {
 
 func (x *Config) GetDisableFallback() bool {
 	if x != nil {
-		return true
+		return x.DisableFallback
 	}
-	return true
+	return false
 }
 
 func (x *Config) GetDisableFallbackIfMatch() bool {
 	if x != nil {
-		return true
+		return x.DisableFallbackIfMatch
 	}
-	return true
+	return false
 }
 
 type NameServer_PriorityDomain struct {
